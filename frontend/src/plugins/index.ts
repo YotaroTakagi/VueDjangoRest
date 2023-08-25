@@ -20,7 +20,7 @@ export function registerPlugins(app: App) {
     .use(router)
     .use(VueGtag, {
       config: {
-        id: 'id'
+        id: 'G-GG0S6EC8KF'
       }
     })
 }
