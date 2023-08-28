@@ -23,7 +23,7 @@ const updateTime = () => {
 
 }
 
-const convertDay = (date) => {
+const convertDay = (date: Date) => {
     const day_number = date.getDay();
     const day_str = ['日', '月', '火', '水', '木', '金', '土'][day_number]
 
